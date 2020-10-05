@@ -1,0 +1,158 @@
+body{
+  margin: 0px;
+}
+
+p{
+  font-family: monospace;
+  font-size: 19px;
+  font-style: oblique;
+  color: black;
+  font-weight: bold;
+}
+
+h1{
+  font-family: cursive;
+  margin: 0px;
+  color: #331a00;
+  }
+
+  div{
+    background-image: url("home background.jpg");
+    height: 100%;
+    width: 100%;
+  }
+
+  div img{
+    border-radius: 8px;
+  }
+
+#topNav{
+  background-color: #d5c0aa;
+  height: 12%;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#topNav li{
+  text-decoration: none;
+  display: inline;
+  float: right;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 15px;
+  border-right: 3px ridge black;
+  top: 50%;
+  }
+#topNav  li:hover{
+    background-color: #B2A290;
+    border-right: 3px ridge white;
+
+  }
+#topNav li a{
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+  font-size: 27px;
+}
+#topNav li a:hover{
+  color: #dfcfbe;
+}
+
+#menubar{
+  height: 658px;
+  width: 242px;
+  background-image: url("menubar.jpg");
+  opacity: 53%;
+  border: 2px solid #031042;
+  border-radius: 20px;
+  float: left;
+  margin: 0px;
+}
+
+#menubar li{
+    list-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 28px;
+    padding-top: 25px;
+}
+
+#menubar li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+#menubar li a:hover{
+  border-bottom: 3px solid white;
+}
+
+#menubar h1{
+  color: #d1d1e0;
+}
+
+#Boba h1{
+  color: #331a00;
+  text-decoration: underline;
+}
+
+#Boba p a{
+  color: #4d3319;
+  text-decoration: none;
+  font-family: monospace;
+  }
+
+  #Boba p{
+    font-size: 19px;
+    color: black;
+  }
+
+  #coffee {
+    color: #4d3319;
+    font-family: monospace;
+  }
+
+  #sandwich {
+    color: #4d3319;
+    font-family: monospace;
+  }
+
+  #fresh {
+    color: #4d3319;
+    font-family: monospace;
+  }
+
+  #international {
+    color: #4d3319;
+    font-family: monospace;
+  }
+
+  #goodies p{
+    font-family: monospace;
+    padding-left: 242px;
+  }
+
+  #goodies p a{
+    color: white;
+    opacity: 70%
+  }
+
+  #bottle{
+    border-radius: 29px;
+    opacity: 80%;
+    padding-right: 20px;
+  }
+
+  #giftcard{
+    border-radius: 35px;
+    border: 5px solid black;
+    opacity: 80%;
+  }
+
+  #goodies a:link{
+    text-decoration: none;
+    }
+
+  #links a:hover{
+    border-bottom: 3px solid #4d3319;
+  }
